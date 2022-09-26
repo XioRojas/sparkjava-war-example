@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'xiomara_nodo'}
+    agent {label 'ubuntu'}
     stages {
         stage('download') {
             steps {
